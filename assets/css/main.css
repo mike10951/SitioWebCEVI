@@ -2,6 +2,7 @@
 
 :root {
   --mainDark: #2B2C28;
+  --mainGreen: #25D366;
   --mainBlue: #809BCE;
   --mainWhite: #fff;
   --mainGrey: #DDE2C6;
@@ -53,6 +54,15 @@ li p {
   background: var(--mainBlue);
   color: var(--mainWhite);
 }
+.green__btn {
+  color: var(--mainGreen);
+  border: 0.1rem solid var(--mainGreen);
+  background: transparent;
+}
+.green__btn:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
 .title-underline {
   width: 12rem;
   height: 0.3rem;
@@ -72,6 +82,10 @@ li p {
 }
 .blockquote {
   border-left: 0.5rem solid var(--mainBlue);
+}
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }
 /* end of global */
 .navbar {
@@ -162,7 +176,7 @@ li p {
 .services,
 .tour {
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-  url('../img/bannerBcg.jpeg')
+  url('../images/bannerBcg.jpeg')
   center/cover fixed no-repeat;
 }
 .services-info-text {
