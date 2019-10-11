@@ -28,7 +28,7 @@ ol li {
 li p {
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 60px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--mainWhite);
 }
 .list-number{
@@ -43,7 +43,7 @@ li p {
 .text-emphasize {
   color: var(--mainBlue);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .blue__btn {
   color: var(--mainBlue);
@@ -209,6 +209,10 @@ li p {
 .service-link:hover {
   color: var(--mainWhite);
   text-decoration: none;
+}
+.services-list {
+  color: #6c757d;
+  list-style-type: square;
 }
 /* gallery section */
 .gallery-btn:hover {
