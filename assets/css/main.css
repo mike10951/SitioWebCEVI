@@ -35,6 +35,34 @@ li p {
   font-size: 1.2rem;
   color: var(--mainWhite);
 }
+td, th {
+  padding: 2%;
+  text-align: center;
+  max-width: 300px;
+}
+.table-wrapper {
+  margin: 10px 70px 70px;
+  box-shadow: 5px 35px 60px rgba(0, 0, 0, 0.2);
+}
+.fl-table {
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+}
+.fl-table th {
+  color: #ffffff;
+  background: var(--mainBlue);
+}
+.fl-table th:nth-child(odd) {
+  background: var(--mainDark);
+}
+
 .list-number{
   position: absolute;
 }
@@ -294,4 +322,7 @@ li p {
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome, Opera and Firefox */ 
+}
+.WhatsApp {
+  color: var(--mainDark) !important;
 }
