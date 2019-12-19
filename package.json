@@ -1,0 +1,30 @@
+{
+  "name": "sitiowebcevi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike10951/SitioWebCEVI.git"
+  },
+  "author": "Miguel Cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike10951/SitioWebCEVI/issues"
+  },
+  "homepage": "https://github.com/mike10951/SitioWebCEVI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.2",
+    "path": "^0.12.7",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
